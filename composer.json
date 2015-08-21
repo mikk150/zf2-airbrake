@@ -1,0 +1,10 @@
+{
+    "name": "mikk150/zf2-airbrake",
+    "description": "Airbrake error hanler for ZF2",
+    "require": {
+        "dbtlr/php-airbrake": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {"mikk150\\ErrorReportingModule\\": "src/ErrorReportingModule"}
+    }
+}
