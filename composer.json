@@ -5,6 +5,6 @@
         "dbtlr/php-airbrake": "~1.1"
     },
     "autoload": {
-        "psr-4": {"mikk150\\ErrorReportingModule\\": "src/ErrorReportingModule"}
+        "psr-0": {"mikk150\\Zf2Airbrake\\": "src/"}
     }
 }
